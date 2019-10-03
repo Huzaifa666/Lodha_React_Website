@@ -1,22 +1,358 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#main{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+html{
+  font-size: 75%;
+  scroll-behavior: smooth;
+}
+#navigation{
+  height: 8vh;
+}
+.embed-responsive-5by3{
+   padding-bottom: 60%;
 }
 
-.App-link {
-  color: #09d3ac;
+#overview_text{
+  padding-left: 1rem;  
+}
+#icon{
+  color:#fff; font-size:28px;
+}
+
+#logo{
+  background-color: white;
+  height: 5rem;
+  width: 20rem;
+}
+#logo img{
+  width: 100%;
+  height: 100%;
+}
+#text_modify{
+  color: black;
+  font-size: 15px;
+  padding-left: 2rem;
+}
+
+#carousel_slide1,#carousel_slide2,#carousel_slide3{
+  height: 45rem;
+}
+#carousel_slide1 img{
+  width: 100%;
+  height: 100%;
+}
+
+#carousel_slide2 img{
+  width: 100%;
+  height: 100%;
+}
+
+#carousel_slide3 img{
+  width: 100%;
+  height: 100%;
+}
+#carouselExampleIndicators{
+  height : 50rem;
+  margin-top: 15px;
+}
+#bg1, #bg2{
+  width: 50%;
+}
+body{
+  background-color: white;
+}
+
+p{
+  text-align: left
+}
+
+#b1{
+  height:480px;
+  width: 475px;
+  margin-left: 2.4rem;
+}
+
+
+#b2{
+  height:480px;
+  width: 475px;
+  margin-left: 20px;
+}
+
+#b3 {
+  height:480px;
+  width: 475px;
+  margin-left: 20px;
+}
+#th_color{
+  background-color: silver;
+}
+#row_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+
+
+#border_rad1, #border_rad2, #border_rad3{
+  border : 2px solid green;
+  width : 200px;
+  height : 200px;
+  margin : auto;
+  margin-top: 10px;
+  border-radius: 100%;
+  text-align: center;
+  background-image: url('./img/img.jpg')
+}
+
+
+#place{
+  padding-left:10px;
+  padding-top:80px;
+}
+
+#tab_text{
+  margin-top: 20px;
+  height: 210px;
+  padding-left: 10px;
+}
+
+h3 {
+  width: 50%; 
+  text-align: center; 
+  border-bottom: 1px solid silver; 
+  line-height: 0.1em;
+  margin: auto;
+} 
+
+h3 span { 
+   padding:0 10px;
+   background-color: white;
+}
+
+
+#tab_1 {
+  width: 30rem;
+}
+#blank{
+  width: 5rem;
+  background-color: white;
+}
+#tab_2{
+  width : 30rem;
+}
+
+#amen_content{
+  margin-top: 2vh;
+  margin-left: 0.5vw;
+}
+
+#button_1, #button_2 {
+  width: 15rem;
+  height : 4rem;
+  margin-left: 17rem;
+  font-size: 1rem;
+  border: 1px solid black;  
+}
+p{
+  font-family: 'Playfair Display'
+}
+#id1, #id2, #id3{
+display:inline;
+overflow: hidden;
+}
+
+#carousel_img1{
+  background-image: url('./img/cm1.jpg')
+}
+#carousel_img2{
+  background-image: url('./img/cm2.jpeg')
+}
+#carousel_img3{
+  background-color: url('./img/cm3.jpg')
+}
+#amen_left, #amen_right{
+  margin-left: -15px;
+}
+#image_place{
+  height: 10rem;
+  width : 10rem;
+  text-align: center;
+  float: left;
+  background-color: white;
+  border : 1px solid black;
+  background-image: url('./img/img.jpg')
+}
+
+#text_place{
+  overflow: hidden;
+  padding-left: 2rem;
+}
+
+
+#plans_images{
+  margin-top: 2vh;
+  margin-left: -1vh;
+  margin-right: -1vh;
+}
+
+#img_1, #img_2{
+padding-left: 2rem;
+height: 15rem;
+width: 100%;
+text-align: center;
+}
+#img_3{
+  height: 3rem;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+#box_S{
+  padding:  2vh;
+  width: 21.710526315789473vh;
+  height: 21.710526315789473vh;
+}
+#box_S img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+#space{
+  width : 1rem;
+  background-color: white; 
+}
+
+.classWithPad{
+  margin:10px; padding:10px;
+  background-color: white;
+}
+#offer_container{
+  height: 72.76315789473684vh;
+}
+
+
+#rates_table{
+  margin: auto;
+  width: 70%;
+}
+
+#sales_content{
+  margin: auto;
+  margin-top: 3vh;
+  width : 90%;
+}
+#cl_1, #cl_2{
+  width:45%;
+  height:40rem;
+}
+
+#offer_content{
+  height: 72.63157894736842vh;
+}
+
+#cl_1 img{
+  width: 100%;
+  height: 32rem;
+}
+textarea{
+  resize: none
+}
+#video_fit{
+  width: 48.828125vw;
+  height: 61.46272855133615vh;
+  margin-top: 2vh;
+  margin-left: 24vw;
+}
+#space_1{
+  height: 12.658227848101266vh;
+}
+
+#space_2{
+  height: 23.90998593530239vh;
+}
+
+#space_3{
+  height: 22.50351617440225vh;
+}
+
+#space_4{
+  height: 24.19127988748242vh;
+}
+#space_5{
+  height: 8.157524613220815vh;
+}
+#space_6{
+height: 8.157524613220815vh;
+}
+#space_7{
+  height: 8.860759493670885vh
+}
+#space_8{
+  height: 11.673699015471167vh;
+}
+#number{
+  position: absolute;
+  width: 180px;
+  height: 20px;
+  left: 85vw;
+  bottom:7.4vh;
+  right: 4vw;
+  border: 1px solid green;
+}
+#number i{
+  color: green;
+}
+#indoor{
+  padding-top:2vh;
+  text-align: center;
+  width: 10.7421875vw;
+  height: 8.438818565400844vh;
+  font-size: 20px;
+  border: 1px solid silver;
+}
+#space_9{
+  height: 19.69057665260197vh;
+}
+@media only screen and (max-width: 768px) {
+  #plans_images{
+    margin-left: 6vw;
+  }
+  #rates_table{
+    margin-left: 6vw;
+  }
+  #video_fit{
+    width: 79vw;
+    height: 30vh;
+    margin-left: 5vw;
+  }
+  #number{
+    display: none;  
+  }
+  #indoor{
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    padding-top:1vh
+  }
+  #hello{
+    height: 10vh;
+  }
 }
